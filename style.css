@@ -1,0 +1,81 @@
+/* Set the background image */
+body {
+  background-image: url("https://preview.redd.it/nagatoro-wallpaper-v-2-0-now-without-komi-2-season-frames-v0-b2utvahbarla1.png?auto=webp&s=e15d1dcf88b7fa6b2f23c54a79b298d661c0b949");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Center the container */
+.invite-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Style the profile picture */
+.profile-pic {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Style the name and invite text container */
+.invite-container .name-and-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #7288da;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Style the name */
+.invite-container h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* Style the invite text */
+.invite-text {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+/* Style the invite button */
+.invite-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #7288da;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.invite-button:hover {
+  background-color: #555555;
+}
+
+/* Style the profile pic container */
+.invite-container .name-and-text .profile-pic {
+  margin-bottom: 20px;
+}
